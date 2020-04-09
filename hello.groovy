@@ -3,4 +3,5 @@
 node("master") {
   hello()
   echo "${params}"
+  echo "${params['WORKSPACE']}"
 }
