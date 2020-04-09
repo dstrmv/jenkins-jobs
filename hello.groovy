@@ -2,5 +2,5 @@
 
 node("master") {
   hello()
-  echo "${env.toString()}"
+  echo "${params}"
 }
