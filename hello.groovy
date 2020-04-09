@@ -2,4 +2,5 @@
 
 node("master") {
   hello()
+  echo "$env"
 }
