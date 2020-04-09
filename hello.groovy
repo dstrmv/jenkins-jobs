@@ -1,4 +1,4 @@
-Library("ci") _
+@Library("ci") _
 
 node("master") {
   hello()
