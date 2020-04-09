@@ -2,6 +2,5 @@
 
 node("master") {
   hello()
-  echo "${params}"
-  echo "${params['WORKSPACE']}"
+  echo sh(script: 'env|sort', returnStdout: true)
 }
