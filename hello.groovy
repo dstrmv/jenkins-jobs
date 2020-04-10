@@ -9,4 +9,5 @@ node("master") {
   jobs.each {
     echo "${it.getName()}"
   }
+  echo "${this.class.name}"
 }
